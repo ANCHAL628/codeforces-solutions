@@ -11,7 +11,8 @@ public:
        //     mp[nums[i]] = i ;
        // }
        //  return answer ;
-       //  ///
+       //  ///\
+        //
         vector<int>ans ;
         for(int i = 0 ; i < nums.size() ; i++){
             int answer = 0 ;
@@ -24,11 +25,11 @@ public:
                 }
             }
         }
+        //
         return ans ;
     }
 };
-//tc : O(n)
-//////////
-///
-
+//three approaches : O(n^2)
+//approch no two :sort krke two pointer
+//  o(N)- mapping 
 //
