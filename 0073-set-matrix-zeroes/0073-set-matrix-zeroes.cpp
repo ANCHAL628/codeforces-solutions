@@ -31,6 +31,7 @@ public:
             if(matrix[0][j] == 0){
                 flag2 = true;
             }
+            //
         }
         for(int i=1; i<n; i++){
             for(int j=1; j<m; j++){
